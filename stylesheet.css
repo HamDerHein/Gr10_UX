@@ -7,8 +7,25 @@ body {
 #Experience_Map {}
 
 
+
 img {
 
+    height: 20vw;
+    width: 20vw;
+}
+
+#design_charette .fredagsbar img {
+    height: 20vw;
+    width: 20vw;
+}
+
+
+#design_charette .kantine img {
+    height: 20vw;
+    width: 20vw;
+}
+
+#design_charette .info img {
     height: 20vw;
     width: 20vw;
 
