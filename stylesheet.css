@@ -3,10 +3,80 @@ body {
     margin: 0;
 }
 
+/**************fonte*************/
 
-#Experience_Map {}
+nav {
+    font-family: "Flama Light";
+    text-transform: uppercase;
+    width: 70%;
+}
 
 
+header h1,
+nav {
+    margin: 50px auto;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    font-family: "Flama Condensed Bold";
+    margin: 0 0 30px 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+nav a {
+    display: inline-block;
+    margin: 0 0 25px 0;
+    padding: 0 10px;
+}
+
+p {
+    text-align: center;
+}
+
+/**************Experience map*************/
+
+#experience_map {
+    background-color: lightgrey;
+    padding: 50px;
+}
+
+#experience_map h2 {
+    text-align: center;
+
+}
+
+/**************persona*************/
+
+#persona {
+    padding: 50px;
+}
+
+
+/**************persona*************/
 
 img {
 
