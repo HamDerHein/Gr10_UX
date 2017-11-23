@@ -1,6 +1,8 @@
 body {
 
     margin: 0;
+    padding: 0;
+
 }
 
 /**************fonte*************/
@@ -8,15 +10,67 @@ body {
 nav {
     font-family: "Flama Light";
     text-transform: uppercase;
-    width: 70%;
+
 }
 
 
-header h1,
-nav {
-    margin: 50px auto;
+.title {
+    width: 100%;
+    height: auto;
+    margin-top: 30px;
+}
+
+.title h1 {
+    font-size: 4vw;
     text-align: center;
+
 }
+
+nav {
+    text-align: center;
+    background-color: #5887be;
+    font-size: 15px;
+}
+
+
+nav ul {
+    display: inline-block;
+}
+
+
+
+nav ul {
+    display: inline-block;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-weight: 700;
+    font-size: 1em;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    width: 150px;
+}
+
+nav li a:hover {
+    background-color: #b7cdeb;
+    color: #ffffff;
+}
+
+
 
 h1,
 h2,
@@ -42,6 +96,13 @@ h3 {
     letter-spacing: 1px;
 }
 
+h4 {
+    font-size: 1.4em;
+    letter-spacing: 1px;
+
+}
+
+
 a {
     text-decoration: none;
     color: black;
@@ -60,7 +121,7 @@ p {
 /**************Experience map*************/
 
 #experience_map {
-    background-color: lightgrey;
+    background-color: #e0f1ff;
     padding: 50px;
 }
 
@@ -69,34 +130,317 @@ p {
 
 }
 
+#experience_map img {
+    width: 40%;
+    height: 40%;
+    margin: auto;
+    padding: 50px;
+
+}
+
+
+
+
+
+
 /**************persona*************/
 
 #persona {
-    padding: 50px;
+    padding: 10px;
+    background-color: lightblue
+}
+
+#persona p {
+    text-align: left;
 }
 
 
-/**************persona*************/
+/**************Charette*************/
 
-img {
+#design_charette {
+    background-color: #abc5d4;
+    width: 100%;
+    height: 100%;
 
-    height: 20vw;
-    width: 20vw;
+
+
+
 }
 
-#design_charette .fredagsbar img {
-    height: 20vw;
-    width: 20vw;
+.fredagsbar1 {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fredagsbar1 img {
+    width: 100%;
+    height: 100%;
+}
+
+.kantine {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kantine img {
+    width: 100%;
+    height: 100%;
 }
 
 
-#design_charette .kantine img {
-    height: 20vw;
-    width: 20vw;
+.info {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#design_charette .info img {
-    height: 20vw;
-    width: 20vw;
+.info img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.billede1 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 15px;
+}
+
+.billede2 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 15px;
+
+}
+
+.billede3 {
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 15px;
+}
+
+
+.billede4 {
+
+    flex-grow: 1;
+    flex-basis: 400px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 15px;
+}
+
+
+/**************storyboard*************/
+
+#storyboard {
+    width: 100%;
+    height: 100%;
+    background-color: #a5a5a7;
+
+
+}
+
+#storyboard img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.fredagsbarapp {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+
+}
+
+.kantineapp {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.infoapp {
+    width: 100%;
+    height: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.app1 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 10px;
+
+}
+
+.app2 {
+    flex-grow: 1;
+    flex-basis: 300px;
+    background-color: #C8C5C5;
+    margin: 30px;
+    padding: 10px;
+
+
+}
+
+
+/**************AKTIVITETER OG FEATURES *************/
+
+#aktiviteter_features {
+
+    width: 100%;
+    height: 100%;
+    background-color: #96b4ce;
+
+}
+
+.fredagsbar_af {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f1f2f4;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+}
+
+.overskrift {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.kantine_af {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #d7d7e6;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+
+}
+
+
+.info_af {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #dbf0ed;
+    padding: 20px;
+    width: 350px;
+    height: 350px;
+
+
+}
+
+.aktivitet {
+    flex-grow: 0.7;
+    flex-basis: 100px;
+}
+
+.features {
+    flex-grow: 0.5;
+    flex-basis: 100px;
+
+}
+
+
+
+#aktivfeatures {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+    padding: 10px;
+
+}
+
+
+
+
+
+#video {
+
+    background-color: rgb(205, 206, 208);
+    width: 100%;
+    height: 100%;
+}
+
+#video img {
+    width: 40%;
+    height: 60%;
+}
+
+
+#ideer {
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px;
+
+}
+
+.ide1 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color: #abc5d4;
+    padding: 15px;
+    margin: 30px;
+
+
+
+}
+
+.ide2 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color: #abc5d4;
+    padding: 15px;
+    margin: 30px
+}
+
+.ide3 {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color: #abc5d4;
+    padding: 15px;
+    margin: 30px;
+
+
+
+}
+
+.endelig {
+    flex-grow: 1;
+    flex-basis: 200px;
+    background-color: #abc5d4;
+    padding: 15px;
+    margin: 30px;
+
 
 }
