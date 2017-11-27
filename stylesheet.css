@@ -70,9 +70,150 @@ nav li a:hover {
     color: #ffffff;
 }
 
+/*-------- DROPDOWN ---------- */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
 
 
-h1,
+/* Style The Dropdown Button */
+
+.dropbtn {
+    background-color: #5887be;
+    padding: 16px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+/* The container <div> - needed to position the dropdown content */
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+
+/* Dropdown Content (Hidden by Default) */
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #ffffff;
+    min-width: 160px;
+    z-index: 1;
+}
+
+
+/* Links inside the dropdown */
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    display: block;
+}
+
+
+/* Change color of dropdown links on hover */
+
+.dropdown-content a:hover {
+    background-color: #ffffff
+}
+
+
+/* Show the dropdown menu on hover */
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+.dropdown:hover .dropbtn {
+    background-color: #5887be;
+}
+
+
+
+/*--------- NAVIGATION MENU -------*/
+
+/*--------- DROPDOWN MENU ----------*/
+
+.dropbtn {
+    background-color: #5887be;
+    color: white;
+    padding: 16px;
+    width: 113px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.5em;
+    text-align: left;
+    font-family: "Open Sans", sans-serif;
+}
+
+
+/*------ DROPDOWN CONTAINER -------*/
+
+.dropdown {
+    position: fixed;
+    display: inline-block;
+    width: 100%;
+    top: 0;
+    background-color: #5887be;
+    z-index: 1;
+}
+
+.dropdown ul {
+    background-color: #5887be;
+    list-style-type: none;
+    text-align: left;
+}
+
+
+/*-------- DROPDOWN INDHOLD -------*/
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #5887be;
+    min-width: 200px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: #ffffff;
+    padding: 10px;
+    width: 200px;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ffffff;
+    color: #5d6f7d;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+h1 {
+
+
+    margin-top: 100px;
+    text-align: center;
+}
+
+
 h2,
 h3 {
     font-family: "Flama Condensed Bold";
@@ -122,32 +263,55 @@ p {
 
 #experience_map {
     background-color: #e0f1ff;
-    padding: 50px;
+    padding: 15px;
 }
 
-#experience_map h2 {
+#map h4 {
     text-align: center;
+}
+
+#tests {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+
+.test1 {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 30px;
+    padding: 15px;
+
 
 }
 
-#experience_map img {
-    width: 40%;
-    height: 40%;
-    margin: auto;
-    padding: 50px;
-
+.test1 img {
+    width: 70%;
+    height: 100%;
 }
 
+.test2 {
+    flex-grow: 1;
+    flex-basis: 500px;
+    margin: 30px;
+    padding: 15px;
+}
 
-
-
-
+.test2 img {
+    width: 70%;
+    height: 100%;
+}
 
 /**************persona*************/
 
 #persona {
     padding: 10px;
-    background-color: lightblue
+    background-color: lightblue;
+    padding: 15px;
+
 }
 
 #persona p {
@@ -161,11 +325,9 @@ p {
     background-color: #abc5d4;
     width: 100%;
     height: 100%;
-
-
-
-
+    padding: 15px;
 }
+
 
 .fredagsbar1 {
     width: 100%;
@@ -250,8 +412,12 @@ p {
     width: 100%;
     height: 100%;
     background-color: #a5a5a7;
+    padding: 15px;
+}
 
 
+#storyboard h4 {
+    text-align: center;
 }
 
 #storyboard img {
@@ -382,13 +548,15 @@ p {
 
 
 
-
+/******************* ideer***********/
 
 #video {
 
     background-color: rgb(205, 206, 208);
     width: 100%;
     height: 100%;
+    text-align: center;
+
 }
 
 #video img {
@@ -411,9 +579,6 @@ p {
     background-color: #abc5d4;
     padding: 15px;
     margin: 30px;
-
-
-
 }
 
 .ide2 {
@@ -443,4 +608,25 @@ p {
     margin: 30px;
 
 
+}
+
+
+/************DATA*************/
+
+#data {
+    background-color: #cadcf0;
+    padding: 15px;
+}
+
+/********** resultater******/
+
+#resultater {
+    background-color: #c2c6c9;
+    padding: 15px;
+}
+
+#resultater p,
+h2,
+h4 {
+    text-align: left;
 }
