@@ -20,15 +20,10 @@ nav {
     margin-top: 30px;
 }
 
-.title h1 {
-    font-size: 4vw;
-    text-align: center;
-
-}
 
 nav {
     text-align: center;
-    background-color: #5887be;
+    background-color: #e1d7e2;
     font-size: 15px;
 }
 
@@ -66,81 +61,9 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #b7cdeb;
-    color: #ffffff;
+    background-color: #e1d7e2;
+    color: #e1d7e2;
 }
-
-/*-------- DROPDOWN ---------- */
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-
-/* Style The Dropdown Button */
-
-.dropbtn {
-    background-color: #5887be;
-    padding: 16px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-
-/* The container <div> - needed to position the dropdown content */
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-
-/* Dropdown Content (Hidden by Default) */
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #ffffff;
-    min-width: 160px;
-    z-index: 1;
-}
-
-
-/* Links inside the dropdown */
-
-.dropdown-content a {
-    color: black;
-    padding: 12px 16px;
-    display: block;
-}
-
-
-/* Change color of dropdown links on hover */
-
-.dropdown-content a:hover {
-    background-color: #ffffff
-}
-
-
-/* Show the dropdown menu on hover */
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
-
-/* Change the background color of the dropdown button when the dropdown content is shown */
-
-.dropdown:hover .dropbtn {
-    background-color: #5887be;
-}
-
 
 
 /*--------- NAVIGATION MENU -------*/
@@ -148,15 +71,17 @@ nav li a:hover {
 /*--------- DROPDOWN MENU ----------*/
 
 .dropbtn {
-    background-color: #5887be;
-    color: white;
-    padding: 16px;
+    background-color: #acc7cc;
+    color: #222933;
+    padding: 15px;
     width: 113px;
     border: none;
     cursor: pointer;
     font-size: 1.5em;
     text-align: left;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Flama Light";
+
+
 }
 
 
@@ -167,12 +92,12 @@ nav li a:hover {
     display: inline-block;
     width: 100%;
     top: 0;
-    background-color: #5887be;
+    background-color: #acc7cc;
     z-index: 1;
 }
 
 .dropdown ul {
-    background-color: #5887be;
+    background-color: #acc7cc;
     list-style-type: none;
     text-align: left;
 }
@@ -183,21 +108,21 @@ nav li a:hover {
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #5887be;
+    background-color: #acc7cc;
     min-width: 200px;
     z-index: 1;
 }
 
 .dropdown-content a {
-    color: #ffffff;
+    color: #222933;
     padding: 10px;
     width: 200px;
     display: block;
 }
 
 .dropdown-content a:hover {
-    background-color: #ffffff;
-    color: #5d6f7d;
+    background-color: #acc7cc;
+    color: whitesmoke;
 }
 
 .dropdown:hover .dropdown-content {
@@ -205,12 +130,15 @@ nav li a:hover {
 }
 
 
-
 h1 {
-
-
     margin-top: 100px;
     text-align: center;
+    color: #222933;
+    background-color: #e1d7e2;
+    font-size: 3.3em;
+    padding: 1.3em;
+    margin-bottom: 0;
+    margin: 0px;
 }
 
 
@@ -222,9 +150,7 @@ h3 {
     text-transform: uppercase;
 }
 
-h1 {
-    font-size: 50px;
-}
+
 
 h2 {
     font-size: 30px;
@@ -262,12 +188,15 @@ p {
 /**************Experience map*************/
 
 #experience_map {
-    background-color: #e0f1ff;
+    background-color: #222933;
     padding: 15px;
+    color: #e1d7e2;
+
 }
 
-#map h4 {
+#map h3 {
     text-align: center;
+    color: #e1d7e2;
 }
 
 #tests {
@@ -309,8 +238,10 @@ p {
 
 #persona {
     padding: 10px;
-    background-color: lightblue;
+    background-color: #e1d7e2;
     padding: 15px;
+    color: #222933;
+
 
 }
 
@@ -322,12 +253,21 @@ p {
 /**************Charette*************/
 
 #design_charette {
-    background-color: #abc5d4;
-    width: 100%;
-    height: 100%;
+    background-color: #222933;
+
     padding: 15px;
+    color: #e1d7e2;
+
 }
 
+#design_charette h4 {
+    color: #e1d7e2;
+}
+
+#design_charette h2 {
+    color: #e1d7e2;
+
+}
 
 .fredagsbar1 {
     width: 100%;
@@ -373,7 +313,6 @@ p {
 .billede1 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #C8C5C5;
     margin: 30px;
     padding: 15px;
 }
@@ -381,7 +320,6 @@ p {
 .billede2 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #C8C5C5;
     margin: 30px;
     padding: 15px;
 
@@ -390,7 +328,6 @@ p {
 .billede3 {
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #C8C5C5;
     margin: 30px;
     padding: 15px;
 }
@@ -400,7 +337,6 @@ p {
 
     flex-grow: 1;
     flex-basis: 400px;
-    background-color: #C8C5C5;
     margin: 30px;
     padding: 15px;
 }
@@ -409,15 +345,16 @@ p {
 /**************storyboard*************/
 
 #storyboard {
-    width: 100%;
-    height: 100%;
-    background-color: #a5a5a7;
+
+    background-color: #e1d7e2;
     padding: 15px;
+    color: #222933;
 }
 
 
 #storyboard h4 {
     text-align: center;
+    color: #222933;
 }
 
 #storyboard img {
@@ -457,18 +394,17 @@ p {
 .app1 {
     flex-grow: 1;
     flex-basis: 300px;
-    background-color: #C8C5C5;
-    margin: 30px;
     padding: 10px;
+    margin: 30px;
+
 
 }
 
 .app2 {
     flex-grow: 1;
     flex-basis: 300px;
-    background-color: #C8C5C5;
-    margin: 30px;
     padding: 10px;
+    margin: 30px;
 
 
 }
@@ -476,83 +412,77 @@ p {
 
 /**************AKTIVITETER OG FEATURES *************/
 
-#aktiviteter_features {
-
-    width: 100%;
-    height: 100%;
-    background-color: #96b4ce;
+#aktivfeatures {
+    background-color: #222933;
+    padding: 15px;
 
 }
+
+#aktivfeatures h3,
+h4 {
+    text-align: left;
+    padding: 15px;
+    color: #e1d7e2;
+
+}
+
 
 .fredagsbar_af {
-    height: auto;
+    background-color: #e1d7e2;
     display: flex;
     flex-wrap: wrap;
-    background-color: #f1f2f4;
-    padding: 20px;
-    width: 350px;
-    height: 350px;
+    padding: 15px;
+    color: #222933;
+
+
+
 }
 
-.overskrift {
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-}
 
 .kantine_af {
-    height: auto;
+    background-color: #e1d7e2;
     display: flex;
     flex-wrap: wrap;
-    background-color: #d7d7e6;
-    padding: 20px;
-    width: 350px;
-    height: 350px;
+    padding: 15px;
+    color: #222933;
+
 
 }
 
 
 .info_af {
-    height: auto;
+    background-color: #e1d7e2;
     display: flex;
     flex-wrap: wrap;
-    background-color: #dbf0ed;
-    padding: 20px;
-    width: 350px;
-    height: 350px;
-
+    padding: 15px;
+    color: #222933;
 
 }
 
+
 .aktivitet {
-    flex-grow: 0.7;
-    flex-basis: 100px;
+    padding: 15px;
+}
+
+
+.aktivitet h4 {
+    color: #222933;
+}
+
+
+.features h4 {
+    color: #222933;
 }
 
 .features {
-    flex-grow: 0.5;
-    flex-basis: 100px;
-
+    padding: 15px;
 }
-
-
-
-#aktivfeatures {
-    height: auto;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 40px;
-    padding: 10px;
-
-}
-
-
 
 /******************* ideer***********/
 
 #video {
 
-    background-color: rgb(205, 206, 208);
+    background-color: #e1d7e2;
     width: 100%;
     height: 100%;
     text-align: center;
@@ -571,12 +501,19 @@ p {
     flex-wrap: wrap;
     margin: 40px;
 
+
+}
+
+
+#ideer h4 {
+    color: #e1d7e2;
+    ;
 }
 
 .ide1 {
     flex-grow: 1;
     flex-basis: 200px;
-    background-color: #abc5d4;
+    background-color: #222933;
     padding: 15px;
     margin: 30px;
 }
@@ -584,7 +521,7 @@ p {
 .ide2 {
     flex-grow: 1;
     flex-basis: 200px;
-    background-color: #abc5d4;
+    background-color: #222933;
     padding: 15px;
     margin: 30px
 }
@@ -592,7 +529,7 @@ p {
 .ide3 {
     flex-grow: 1;
     flex-basis: 200px;
-    background-color: #abc5d4;
+    background-color: #222933;
     padding: 15px;
     margin: 30px;
 
@@ -603,30 +540,98 @@ p {
 .endelig {
     flex-grow: 1;
     flex-basis: 200px;
-    background-color: #abc5d4;
+    background-color: #222933;
     padding: 15px;
     margin: 30px;
 
 
 }
 
+#video h4 {
+    padding: 0px;
+    margin: 5px;
+}
+
+#video img {
+    width: 50%;
+    height: 70%;
+}
 
 /************DATA*************/
 
 #data {
-    background-color: #cadcf0;
+    background-color: #222933;
     padding: 15px;
+    color: #e1d7e2;
 }
 
 /********** resultater******/
 
 #resultater {
-    background-color: #c2c6c9;
+    background-color: #e1d7e2;
+    color: #222933;
     padding: 15px;
+
 }
+
 
 #resultater p,
 h2,
 h4 {
     text-align: left;
+    color: #222933;
+    padding: 10px;
+
+
+}
+
+
+
+/***********FORRETNIGSMODEL******************/
+
+#forretningsmodel {
+    background-color: #222933;
+    padding: 15px;
+    color: #e1d7e2;
+
+}
+
+#forretningsmodel p {
+    text-align: left;
+
+}
+
+
+/*********UIKIT************/
+
+#uikit {
+    background-color: #e1d7e2;
+    padding: 15px;
+    color: #222933;
+}
+
+
+
+/*********GRAFISK DESIGN************/
+
+#design {
+    background-color: #222933;
+    padding: 15px;
+    color: #e1d7e2;
+
+}
+
+/*********STYLETILE************/
+
+#style {
+    background: #e1d7e2;
+    padding: 15px;
+    color: #222933;
+
+}
+
+
+#style img {
+    width: 100%;
+    height: 100%;
 }
