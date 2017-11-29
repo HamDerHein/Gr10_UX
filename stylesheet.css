@@ -737,3 +737,62 @@ h4 {
 .nr4 {
     padding: 10px;
 }
+
+
+
+/************APP*************/
+
+#produkt {
+    background-color: #222933;
+}
+
+
+
+#produkt img {
+    width: 20%;
+    height: 20%;
+}
+
+.app {
+    text-align: center;
+    padding: 20px;
+}
+
+
+#linkapp {
+    text-align: center;
+}
+
+
+#introduktion {
+
+    padding: 30px;
+}
+
+#introduktion h3 {
+    text-align: center;
+}
+
+#introduktion p {
+    text-align: justify;
+}
+
+
+#pitch h3 {
+    text-align: center;
+    color: #e1d7e2
+}
+
+#pitch h3:hover {
+    background-color: #887789;
+}
+
+
+#pitch {
+    text-align: center;
+}
+
+h3,
+p {
+    color: #e1d7e2
+}
