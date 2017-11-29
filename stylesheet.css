@@ -62,7 +62,7 @@ nav li a {
 }
 
 nav li a:hover {
-    background-color: #222933;
+    background-color: #bca7b3;
     color: #e1d7e2;
 }
 
@@ -73,7 +73,7 @@ nav li a:hover {
 
 .dropbtn {
     background-color: #bca7b3;
-    color: #222933;
+    color: #e1d7e2;
     padding: 15px;
     width: 113px;
     border: none;
@@ -115,7 +115,7 @@ nav li a:hover {
 }
 
 .dropdown-content a {
-    color: #222933;
+    color: #e1d7e2;
     padding: 10px;
     width: 200px;
     display: block;
@@ -305,6 +305,8 @@ p {
 
 #persona p {
     text-align: left;
+    color: #222933;
+
 }
 
 
@@ -491,9 +493,6 @@ h4 {
     flex-wrap: wrap;
     padding: 15px;
     color: #222933;
-
-
-
 }
 
 
@@ -562,6 +561,9 @@ h4 {
 
 }
 
+#video h3 {
+    color: #222933;
+}
 
 #ideer h4 {
     color: #e1d7e2;
@@ -633,12 +635,18 @@ h4 {
 }
 
 
+#resultaterne h3 {
+    color: #222933;
+}
+
 #resultater p,
 h2,
-h4 {
+h4,
+h3 {
     text-align: left;
     color: #222933;
-    padding: 10px;
+    padding: 15px;
+
 
 
 }
@@ -699,6 +707,49 @@ h4 {
 }
 
 
+
+
+/*********** Trello *******************/
+
+#trello h3 {
+    font-family: "Flama Condensed Bold";
+    text-transform: uppercase;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #222933;
+    text-align: center;
+}
+
+#trello {
+    text-align: center;
+    color: #222933;
+    background-color: #e1d7e2;
+}
+
+#trello img {
+    width: 20%;
+}
+
+
+#burn_down {
+    background-color: #222933;
+    text-align: center;
+}
+
+
+#burn_down h3 {
+    color: #e1d7e2;
+    text-align: center;
+
+}
+
+#burn_down img {
+    width: 20%;
+}
+
+
+
+
 /*********** SCRUM *******************/
 
 #scrumvideo {
@@ -744,6 +795,7 @@ h4 {
 
 #produkt {
     background-color: #222933;
+
 }
 
 
@@ -761,6 +813,12 @@ h4 {
 
 #linkapp {
     text-align: center;
+    color: #e1d7e2
+}
+
+#linkapp h3 {
+    text-align: center;
+    color: #e1d7e2
 }
 
 
@@ -771,10 +829,12 @@ h4 {
 
 #introduktion h3 {
     text-align: center;
+    color: #e1d7e2
 }
 
 #introduktion p {
     text-align: justify;
+    color: #e1d7e2
 }
 
 
@@ -784,14 +844,14 @@ h4 {
 }
 
 #pitch h3:hover {
-    background-color: #887789;
+    background-color: #bca7b3;
 }
 
 
 #pitch {
     text-align: center;
+    color: #e1d7e2
 }
 
-h3,
-p {
-    color: #e1d7e2
+
+/**********FONT*********/
