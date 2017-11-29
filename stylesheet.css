@@ -169,7 +169,6 @@ h4 {
 
 }
 
-
 a {
     text-decoration: none;
     color: black;
@@ -183,6 +182,57 @@ nav a {
 
 p {
     text-align: center;
+}
+
+/*** MENU ***/
+
+/**** SECTION GRUPPEN ****/
+
+#personer {
+    position: relative;
+    width: 100vw;
+}
+
+.wrapper {
+    position: relative;
+    margin: 0 auto;
+    max-width: 1600px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#person_container {
+    flex-basis: 250px;
+    justify-content: center;
+}
+
+#person_indhold {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.person {
+    align-self: center;
+    width: 10vw;
+    height: 10vw;
+    background-color: #f19638;
+    border-radius: 50%;
+    flex-grow: 1;
+    overflow: hidden;
+
+}
+
+.persontekst {
+    text-align: center;
+    flex-grow: 1;
+}
+
+
+#personer img {
+    width: 100%;
 }
 
 /**************Experience map*************/
