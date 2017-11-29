@@ -252,6 +252,12 @@ p {
 
 }
 
+#experience_map h2 {
+
+    color: #e1d7e2;
+
+}
+
 #map h3 {
     text-align: center;
     color: #e1d7e2;
@@ -625,6 +631,10 @@ h4 {
     color: #e1d7e2;
 }
 
+#data h3 {
+    color: #e1d7e2;
+}
+
 /********** resultater******/
 
 #resultater {
@@ -652,6 +662,22 @@ h3 {
 }
 
 
+#usability_test {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.us1 {
+    padding: 15px;
+
+}
+
+.us2 {
+    padding: 15px;
+}
+
+
 
 /***********FORRETNIGSMODEL******************/
 
@@ -662,19 +688,26 @@ h3 {
 
 }
 
+
+#forretningsmodel h3 {
+    color: #e1d7e2;
+
+}
+
 #forretningsmodel p {
     text-align: left;
 
 }
 
 
-/*********UIKIT************/
+/*********KIT************/
 
 #uikit {
     background-color: #e1d7e2;
     padding: 15px;
     color: #222933;
 }
+
 
 
 
@@ -690,6 +723,16 @@ h3 {
 #design p {
     text-align: left;
 }
+
+#design h3 {
+    color: #e1d7e2;
+}
+
+
+
+
+
+
 
 /*********STYLETILE************/
 
@@ -760,12 +803,17 @@ h3 {
     justify-content: center;
 }
 
+#scrum h3 {
+
+    color: #e1d7e2;
+}
 
 #scrum {
     padding: 15px;
     background-color: #222933;
     color: #e1d7e2;
 }
+
 
 #scrum h4 {
     color: #e1d7e2;
