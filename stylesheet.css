@@ -902,4 +902,16 @@ h3 {
 }
 
 
+#benchmark {
+    background-color: #e1d7e2;
+}
+
+#bm {
+    color: #222933
+}
+
+#bm h3 {
+    text-align: center;
+}
+
 /**********FONT*********/
